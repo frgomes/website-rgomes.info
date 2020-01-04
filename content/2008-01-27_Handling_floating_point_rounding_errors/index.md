@@ -3,7 +3,7 @@ title = "Handling of floating point rounding errors."
 date = 2008-01-27T21:47:27Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "jquantlib"]
+tags = ["java", "jquantlib", "numerical", "performance", "benchmark"]
 +++
 _In this article we demonstrate that a very elementary mathematical statement can raise big concerns for numerical applications._
 

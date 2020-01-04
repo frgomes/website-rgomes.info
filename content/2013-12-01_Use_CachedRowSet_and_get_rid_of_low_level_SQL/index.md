@@ -3,7 +3,7 @@ title = "Use CachedRowSet and get rid of low level SQL"
 date = 2013-12-01T12:00:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "sql", "jdbc"]
+tags = ["java", "sql", "jdbc", "rowset"]
 +++
 The interface CachedRowSet provides interesting mechanisms for one willing to work with JDBC with ease. A CachedRowSet is basically a matrix in memory which maps to objects in your database, like this:
 

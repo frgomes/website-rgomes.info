@@ -3,7 +3,7 @@ title = "A NEO will destroy us?"
 date = 2013-06-01T16:00:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["astronomy"]
+tags = ["astronomy", "doomsday", "near earth object", "asteroids"]
 +++
 Just by coincidence, the name of this blog site "Notes, Experiences and Opinions" produces an acronym which also matches "Near Earth Object", which I find an interesting subject, in particular after the cancelled doomsday, allegedly predicted by the Mayan calendar.
 

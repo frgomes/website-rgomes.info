@@ -2,33 +2,33 @@
 title = "Python stack for GPU programming"
 date = 2013-06-01T12:00:00Z
 [taxonomies]
-categories = ["recipes"]
-tags = ["python", "gpu", "copperhead"]
+categories = ["articles", "recipe"]
+tags = ["python", "gpu", "cuda", "copperhead", "build", "sources"]
 +++
 I've recently started to play with Copperhead, which is a research project by Nvidia which provides GPU programming in a very elegant way on top of Python language.
 
 If you are interested on CUDA/GPU development, I recommend you stick with Nvidia requirements, in particular regarding specific distributions which are supported by Nvidia CUDA Toolkit. Since I don't like Ubuntu, I've tried to install the aforementioned toolkit on Debian, but I faced troubles. In the end, I've built a separate box specially for CUDA/GPU development, based on Ubuntu. My environment consists on:
 
-    Kubuntu 11.10 ( which is basically Ubuntu 11.10 + KDE4 )
-    Nvidia CUDA Toolkit 5.0 
+ * Kubuntu 11.10 ( which is basically Ubuntu 11.10 + KDE4 )
+ * Nvidia CUDA Toolkit 5.0 
 
 Long story short, I've decided to build Python and several libraries from sources, since their versions were somewhat old or inconvenient for my purposes. I'm building the stack below from sources:
 
-    Python 2.7.3
-    Numpy 1.6.2
-    Scypy 0.11
-    HDF5 1.8.10
-    PyTables 2.4.0
-    ViTables 2.1
-    Pandas 0.9.1
-    Copperhead trunk
-    recent versions of IPython and Cython
+ * Python 2.7.3
+ * Numpy 1.6.2
+ * Scypy 0.11
+ * HDF5 1.8.10
+ * PyTables 2.4.0
+ * ViTables 2.1
+ * Pandas 0.9.1
+ * Copperhead trunk
+ * recent versions of IPython and Cython
 
 The strategy I employed consists on:
 
-    build Python 2.7.3
-    install virtualenv and virtualenvwrapper on top of Python 2.7.3
-    install everything else on top of a virtual environment
+ * build Python 2.7.3
+ * install virtualenv and virtualenvwrapper on top of Python 2.7.3
+ * install everything else on top of a virtual environment
 
 You can see the entire script below:
 
