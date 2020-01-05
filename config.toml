@@ -17,5 +17,8 @@ title = "Notes, Experiences and Opinions by Richard Gomes"
 
 [extra]
 hyde_links = [
+    {url = "http://tiny.cc/rgomes-cv", name = "CV"},
+    {url = "http://github.com/frgomes", name = "Github"},
+    {url = "http://linkedin.com/in/rgomes", name = "Linkedin"},
     {url = "https://mathminds.io", name = "Mathminds"},
 ]
