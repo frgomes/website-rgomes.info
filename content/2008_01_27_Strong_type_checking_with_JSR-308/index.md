@@ -3,7 +3,7 @@ title = "Strong type checking with JSR-308"
 date = 2008-01-27T21:22:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "jquantlib"]
+tags = ["java", "type check", "jquantlib"]
 +++
 _In this article we demonstrate that strong type checking sometimes is not enough for the level of correctness some applications need. We will explore a situation where we semantic checking is needed to achieve higher levels of correctness. Then we will explorer how something like this can be done in C++ and how future improvements in JDK will allow us to do it in Java, obtaining better results than C++ can offer._
 

@@ -3,7 +3,7 @@ title = "Performance of numerical calculations"
 date = 2008-02-10T14:24:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "jquantlib", "performance"]
+tags = ["java", "jquantlib", "numerical", "performance", "benchmark"]
 +++
 _In this article we explore the controversial subject of performance of Java applications compared with C++ applications. Without any passion and certainly not willing to promote another flame war, we try to demonstrate that most comparisons are simply wrong because compare essentially very different things. We also present alternative implementations which address most issues._
 

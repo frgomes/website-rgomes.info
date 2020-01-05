@@ -3,7 +3,7 @@ title = "Implementation of multiple inheritance in Java"
 date = 2008-03-11T00:22:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "design patterns"]
+tags = ["java", "design patterns", "multiple", "inheritance", "delegator", "pattern"]
 +++
 _In this article we demonstrate how multiple inheritance can be implemented easily in Java._
 

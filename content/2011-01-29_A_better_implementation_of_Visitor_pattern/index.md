@@ -3,7 +3,7 @@ title = "A better implementation of Visitor pattern"
 date = 2011-01-29T17:16:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "visitor pattern", "design patterns", "explained"]
+tags = ["java", "visitor", "pattern", "design patterns", "explained"]
 +++
 _The Visitor pattern is possibly the most complicated design pattern you will face. Not only explanations, implementations and examples you may find on textbooks and articles on the Internet are confusing in general and many times divergent from one another, but also the definition of what the Visitor Pattern is can be many times obscure and rarely explained properly with examples and applications in the real world._
 
