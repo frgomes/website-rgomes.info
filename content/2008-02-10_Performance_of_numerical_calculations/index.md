@@ -19,14 +19,13 @@ Talking about code written in Java, the subject becomes more complex because the
 
 Running the same Java code running on a home PC and running on a IBM AIX server can result on huge differences in performance, not only because we expect a server to be much faster than a home PC but mainly because there are a number of optimizations present in IBM's JVM specifically targeting the hardware platform which is not available in a stock JVM for a generic home PC.
 
-The tagline Java programs are very slow when compared with C++ programs is even less precise than what we just exposed. In general what happens is that very skilled C++ programmers compare their best algorithms and very optimized implementations against some Java code they copied from Java tutorials. Very skilled Java developers know that tutorials potentially work as expected but certainly are not meant to perform well.
+The tagline _"Java programs are very slow when compared with C++ programs"_ is even less precise than what we just exposed. In general what happens is that very skilled C++ programmers compare their best algorithms and very optimized implementations against some Java code they copied from Java tutorials. Very skilled Java developers know that tutorials potentially work as expected but certainly are not meant to perform well.
 
-Another point to consider is that default runtime libraries provided by Java cannot be expected to perform well. The same applies to other languages, including C/C++. This is true that C/C++ have some widely accepted libraries which perform very well but the point is that you will can potentially find something which performs better for the specific hardware platform you have, for the specific problem domain you have.
+Another point to consider is that default runtime libraries provided by Java cannot be expected to perform well. The same applies to other languages, including C/C++. This is true that C/C++ have some widely accepted libraries which perform very well but the point is that you will potentially find something which performs better for the specific hardware platform you have, for the specific problem domain you have.
 
 In the specific situation of Java applications, there are lots of techniques intended to improve performance of the underlying JVM and certainly there are several techniques which can be applied to Java programs in order to avoid operations which are not needed. In order to compare a benchmark test written in C++ against one written in Java, these aspects must be considered, otherwise we will be comparing code written by C++ gurus against code written by Java newbies.
 
 When researching this subject, I've found the references listed below but I haven't spent any time copying source code and eventually changing it or anything else in order to perform the comparison the way I'd like to do. I preferred to adopt a certain "threshold" of I'd say 30%, which means that a difference of 30% or less implies we don't have enough precision. It does not mean that involved parties perform equal. It only means we don't have enough elements to compare with accuracy.
-
 
 Taking the previous paragraphs into consideration, Java code can be compared with more or less equivalent C++ code:
 
@@ -45,7 +44,7 @@ Analyzing the previous list, we can identify that:
 
 * Data structures perform badly: list operations (one dimensional data structures) are 2 times slower whilst matrices can be even 3 times slower.
 * Sort algorithms involve data structures and certainly are affected by slowness of data structures.
-* Trigonometric functions are not a major concern to our specific problem domain.
+* Trigonometric functions are not a major concern to the problem domain I have in my hands but... yes... trigonometric operations a very poor.
 * Nested loops where not analyzed.
 
 
