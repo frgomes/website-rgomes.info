@@ -3,7 +3,7 @@ title = "Using TypeTokens to retrieve generic parameters"
 date = 2011-01-03T20:16:00Z
 [taxonomies]
 categories = ["articles"]
-tags = ["java", "generics", "type erasure", "reify", "design patterns", "typetoken", "anonymouns class", "explained"]
+tags = ["java", "generics", "erasure", "reify", "reified", "design", "pattern", "typetoken", "anonymouns", "class", "explained"]
 +++
 _Super Type Tokens, also known by Type-safe Heterogenerous Container (or simply THC) is very well described in [article by Neal Gafter](http://gafter.blogspot.com/2006/12/super-type-tokens.html), who explains how Super Type Tokens can be used in order to retrieve Run Time Type Information (RTTI) which would be erased otherwise, in a process known as [type erasure](http://download.oracle.com/javase/tutorial/java/generics/erasure.html)._
 
